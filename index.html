@@ -11,7 +11,6 @@
             background: #f2f4f7;
         }
 
-        /* Header Section */
         header {
             background: linear-gradient(135deg, #4e73df, #1cc88a);
             padding: 40px 20px;
@@ -21,110 +20,69 @@
             border-bottom-right-radius: 50px;
             box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
         }
-
         header h1 {
             margin: 0;
             font-size: 36px;
-            letter-spacing: 1px;
         }
 
-        /* Container */
         .container {
             max-width: 900px;
             margin: 50px auto;
             padding: 0 20px;
         }
 
-        /* Card Style */
         .card {
             background: white;
             padding: 25px;
             margin: 20px 0;
             border-radius: 12px;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            cursor: pointer;
             box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+            transition: 0.3s;
         }
-
         .card:hover {
             transform: translateY(-5px);
-            box-shadow: 0px 10px 20px rgba(0,0,0,0.15);
         }
-
-        .card h2 {
-            margin-top: 0;
-            color: #333;
-        }
-
-        .card p {
-            color: #555;
-        }
-
-        .card a {
-            display: inline-block;
-            margin-top: 12px;
-            padding: 10px 18px;
-            background: #4e73df;
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-            transition: background 0.3s ease;
-        }
-
-        .card a:hover {
-            background: #2e59d9;
-        }
-
-        /* Footer */
         footer {
             text-align: center;
             padding: 20px;
-            margin-top: 40px;
             color: #777;
-            font-size: 14px;
         }
     </style>
 </head>
 
 <body>
+
 <header>
     <img src="image10.jpg" alt="Profile Picture" width="150" style="border-radius: 50%;">
     <h1>Welcome to My Biodata Portfolio</h1>
+    <p>Explore my personal details, education, and skills</p>
 </header>
 
-    <header>
-        <h1>Welcome to My Biodata Portfolio</h1>
-        <p>Explore my personal details, education, and skills</p>
-    </header>
+<div class="container">
 
-    <div class="container">
-
-        <!-- Personal Info Card -->
-        <div class="card">
-            <h2>1. Personal Information</h2>
-            <p>Contains my basic biodata, contact details, and profile information.</p>
-            <a href="personal.html">View Personal Info →</a>
-        </div>
-
-        <!-- Education Card -->
-        <div class="card">
-            <h2>2. Educational Background</h2>
-            <p>Shows my school, college, academic achievements, and qualifications.</p>
-            <a href="education.html">View Education →</a>
-        </div>
-
-        <!-- Skills Card -->
-        <div class="card">
-            <h2>3. Skills & Interests</h2>
-            <p>Lists my technical skills, soft skills, and personal interests.</p>
-            <a href="skills.html">View Skills →</a>
-        </div>
-
+    <div class="card">
+        <h2>1. Personal Information</h2>
+        <p>Contains my basic biodata, contact details, and profile information.</p>
+        <a href="personal.html">View Personal Info →</a>
     </div>
 
-    <footer>
-        © 2025 Student Biodata Website | Created for GitHub Pages
-    </footer>
+    <div class="card">
+        <h2>2. Educational Background</h2>
+        <p>Shows my school, college, academic achievements, and qualifications.</p>
+        <a href="education.html">View Education →</a>
+    </div>
+
+    <div class="card">
+        <h2>3. Skills & Interests</h2>
+        <p>Lists my technical skills, soft skills, and personal interests.</p>
+        <a href="skills.html">View Skills →</a>
+    </div>
+
+</div>
+
+<footer>
+    © 2025 Student Biodata Website | Created for GitHub Pages
+</footer>
 
 </body>
 </html>
